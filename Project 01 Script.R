@@ -1,7 +1,7 @@
-library("readr")
-library("tidyverse")
-library("dplyr")
-myData <- read.csv("myData.csv",header = TRUE, sep = ",", dec = ".")
+> library("readr")
+> library("tidyverse")
+> library("dplyr")
+> myData <- read.csv("myData.csv",header = TRUE, sep = ",", dec = ".")
 
 > dim(myData)
 [1] 150   5
